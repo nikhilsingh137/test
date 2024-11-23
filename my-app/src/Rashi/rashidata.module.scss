@@ -1,0 +1,134 @@
+.Data {
+  display: block;
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: 20px;
+  span {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border: solid 1px #ddd;
+    border-radius: 50%;
+    margin: auto;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  h2 {
+    font-size: 25px;
+    margin: 0;
+    padding: 15px 0px;
+    color: #333;
+  }
+  h3 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0px;
+    color: #666;
+  }
+}
+.pandit {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 350px;
+  margin: auto;
+  border-bottom: solid 1px #ddd;
+  gap: 10px;
+  span {
+    width: 70px;
+    height: 70px;
+    display: block;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  h2 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0px;
+    color: #333;
+  }
+}
+
+.mainbox {
+  display: block;
+  margin-top: 25px;
+  padding: 0px 20px;
+  h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: #333;
+  }
+  .detail {
+    display: block;
+    margin-top: 30px;
+    p {
+      margin: 0;
+      padding: 5px 0px;
+      line-height: 25px;
+      text-align: justify;
+      font-size: 17px;
+      color: #666;
+      font-weight: 500;
+    }
+  }
+}
+
+.Number {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px 0px;
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: #333;
+  }
+  .change {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 350px;
+    margin: 30px auto;
+    border-bottom: solid 1px #ddd;
+    gap: 10px;
+    span {
+      width: 70px;
+      height: 70px;
+      display: block;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0;
+      padding: 0px;
+      color: #333;
+    }
+  }
+  .htmlContent {
+    display: block;
+    text-align: left;
+    padding: 0px 20px;
+    p {
+      margin: 0;
+      padding: 5px 0px;
+      line-height: 25px;
+      text-align: justify;
+      font-size: 17px;
+      color: #666;
+      font-weight: 500;
+    }
+  }
+}

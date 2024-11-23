@@ -1,0 +1,55 @@
+.RashiTab {
+  display: block;
+  text-align: center;
+  h2 {
+    font-size: 25px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  .Number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin-top: 20px;
+    h2 {
+      border: solid 1px orange;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: 0.6s;
+      &.active {
+        background: orange;
+        color: #fff;
+      }
+    }
+  }
+  .content {
+    display: block;
+    text-align: left;
+    padding: 30px 20px;
+    .data {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+    p {
+      margin: 0;
+      padding: 5px 0px;
+      line-height: 25px;
+      text-align: justify;
+      font-size: 17px;
+      color: #666;
+      font-weight: 500;
+    }
+  }
+}

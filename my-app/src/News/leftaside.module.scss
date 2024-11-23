@@ -1,0 +1,38 @@
+.LeftAside {
+  display: block;
+  width: 30%;
+  .left {
+    width: 100%;
+    display: block;
+    background: #000;
+    a {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding: 0px 10px;
+      line-height: 60px;
+      border-bottom: solid 2px #ddd;
+      text-decoration: none;
+      &:last-child {
+        border-bottom: none;
+      }
+      &.active {
+        background: #808;
+
+        border-bottom: solid 2px #ff0000;
+        span {
+          color: #fff !important;
+        }
+      }
+      img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+      }
+      span {
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+}
